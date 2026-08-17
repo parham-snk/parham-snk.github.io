@@ -44,7 +44,7 @@ function App() {
             // profile
           }
           <div id='box' className="bg-zinc-950 border-white border border-opacity-40 rounded-2xl shadow-2xl p-3 px-2 flex flex-row justify-center items-center max-w-80 h-1/5">
-            <img src={'/public/profile.jfif'} className='rounded-full w-16 h-16  shadow-black shadow-xl' />
+            <img src={'/profile.jfif'} className='rounded-full w-16 h-16  shadow-black shadow-xl' />
             <div className="mx-5">
               <h1 className="">Hi! 👋</h1>
               <h2>I am </h2>
