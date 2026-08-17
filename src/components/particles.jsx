@@ -8,12 +8,12 @@ export default function ParticleBackground(){
         }, 10);
 
 
-        window.addEventListener("resize",()=>{
+        // window.addEventListener("resize",()=>{
 
-            const ctx = document.querySelector("canvas").getContext("2d")
-            ctx.clearRect(0,0,window.innerWidth,window.innerHeight)
-            animation()
-        })
+        //     const ctx = document.querySelector("canvas").getContext("2d")
+        //     ctx.clearRect(0,0,window.innerWidth,window.innerHeight)
+        //     animation()
+        // })
         
     },[])
     return(
