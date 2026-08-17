@@ -39,11 +39,11 @@ function App() {
         {
           //col1
         }
-        <div  className="flex flex-col justify-between gap-5">
+        <div  className="flex flex-col justify-between gap-5 h-full py-5">
           {
             // profile
           }
-          <div id='box' className="bg-zinc-950 border-white border border-opacity-40 rounded-2xl shadow-2xl p-3 px-2 flex flex-row justify-center items-center max-w-80">
+          <div id='box' className="bg-zinc-950 border-white border border-opacity-40 rounded-2xl shadow-2xl p-3 px-2 flex flex-row justify-center items-center max-w-80 h-1/5">
             <img src={profile} className='rounded-full w-16 h-16  shadow-black shadow-xl' />
             <div className="mx-5">
               <h1 className="">Hi! 👋</h1>
@@ -55,7 +55,7 @@ function App() {
           {
             // list 
           }
-          <div id='box' className="bg-zinc-950 shadow-2xl border-white border border-opacity-40 rounded-2xl p-3 px-4 flex flex-col justify-start items-start max-w-80">
+          <div id='box' className="bg-zinc-950 shadow-2xl border-white border border-opacity-40 rounded-2xl p-3 px-4 flex flex-col justify-start items-start max-w-80 h-4/5">
             <ul>
 
 
@@ -107,7 +107,7 @@ function App() {
           {
             //skills
           }
-          <div  id='marquee' className="bg-zinc-950 border-white border-opacity-40 shadow-2xl border-spacing-6 border rounded-2xl p-2  flex flex-row justify-center items-center h-20 max-w-80">
+          <div  id='marquee' className="bg-zinc-950 border-white border-opacity-40 shadow-2xl border-spacing-6 border rounded-2xl p-2  flex flex-row justify-center items-center  max-w-80 h-20">
 
             <marquee direction="left" >
               <IoLogoNodejs className='inline mx-12' color='white' size={40} />
