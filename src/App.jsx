@@ -5,7 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import ParticlesPage from './components/particles'
 import PixelCard from './components/animations/pixles'
-import profile from "./assets/profile.jfif"
+import profile from "../public/profile.jfif"
 
 
 
