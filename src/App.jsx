@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className='bg-zinc-950 z-0 overflow-x-hidden w-screen h-screen  text-white'>
-      <title>parham sanjanaki portfolio</title>
+      
       {
         //particles
       }
