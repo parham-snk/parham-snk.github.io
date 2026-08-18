@@ -1,10 +1,10 @@
 import { useEffect } from "react"
 import animation from "./particle_module"
 
-export default function ParticleBackground(){
-    useEffect(()=>{
+export default function ParticleBackground() {
+    useEffect(() => {
         setTimeout(() => {
-            animation(200)
+            animation(window.innerWidth < 800 ? 10 : 200)
         }, 10);
 
 
@@ -14,11 +14,11 @@ export default function ParticleBackground(){
         //     ctx.clearRect(0,0,window.innerWidth,window.innerHeight)
         //     animation()
         // })
-        
-    },[])
-    return(
-<>
-        <canvas width={window.innerWidth} height={window.innerHeight} />
-</>
+
+    }, [])
+    return (
+        <>
+            <canvas width={window.innerWidth} height={window.innerHeight} />
+        </>
     )
 }
