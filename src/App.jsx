@@ -26,16 +26,19 @@ import { VscDeveloperTools } from "react-icons/vsc";
 function App() {
 
   return (
-    <div className='bg-zinc-950 z-0 overflow-x-hidden   w-screen h-full  text-white'>
+    <div className='bg-zinc-950 z-0 overflow-x-hidden   w-screen h-auto text-white flex justify-center'>
 
       {
         //particles
+        window.innerWidth > 800 &&
+        <div className="absolute top-100 z-0" id='hero'>
+          <ParticlesPage />
+        </div>
       }
-      <div className="absolute top-100 z-0" id='hero'>
-        <ParticlesPage />
-      </div>
 
-      <div className=" top-0 left-0 pt-10 md:pt-0 w-screen  h-screen  z-20 
+
+
+      <div className="  pt-10 md:pt-0 w-screen  md:h-screen  z-10 
       flex flex-col md:flex-row  justify-center items-center scale-90 md:gap-5
 
       ">
@@ -46,7 +49,7 @@ function App() {
           {
             // profile
           }
-          <div id='box' className="bg-zinc-950 border-white border border-opacity-40 rounded-2xl shadow-2xl p-3 px-2 
+          <div id='box' className="bg-zinc-950 md:backdrop-blur-sm border-white border border-opacity-40 rounded-2xl shadow-2xl p-3 px-2 
           flex flex-row justify-around md:justify-center md:items-center
           w-3/4 md:w-80 h-1/5">
             <img src={'/profile.jfif'} className='rounded-full w-16 h-16  shadow-black shadow-xl' />
@@ -61,7 +64,7 @@ function App() {
           {
             // list 
           }
-          <div id='box' className="bg-zinc-950 shadow-2xl border-white border border-opacity-40 rounded-2xl p-3 md:p-0 px-4 
+          <div id='box' className="bg-zinc-950 shadow-2xl md:backdrop-blur-sm border-white border border-opacity-40 rounded-2xl p-3 md:p-0 px-4 
           flex flex-col justify-start items-start
           
           w-3/4 md:w-80 h-auto">
@@ -70,16 +73,16 @@ function App() {
 
 
 
-              <li className='flex flex-col  justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 bg-opacity-80 border-white border-opacity-10 p-2 rounded-xl md:border-none'>
+              <li className='flex flex-col  justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 md:bg-opacity-80  border-white border-opacity-10 p-2 rounded-xl md:border-none'>
                 <SiAiohttp size={25} />
-                <ul className='md:ps-10 flex flex-row md:flex-col gap-4 md:gap-0'>
+                <ul className='md:ps-10 flex flex-row flex-wrap md:flex-col  gap-4 md:gap-0'>
                   <li className='list-none md:list-item  md:list-disc'>NODEJS</li>
                   <li className='list-none md:list-item  md:list-disc'>EXPRESS</li>
                   <li className='list-none md:list-item  md:list-disc'>SUPABASE</li>
                   <li className='list-none md:list-item  md:list-disc'>EXPO</li>
                 </ul>
               </li>
-              <li className='flex flex-col  justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 bg-opacity-80 border-white border-opacity-10 p-2 rounded-xl md:border-none'>
+              <li className='flex flex-col  justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 md:bg-opacity-80  border-white border-opacity-10 p-2 rounded-xl md:border-none'>
                 <MdDesignServices size={25} />
                 <ul className='md:ps-10 flex flex-row md:flex-col gap-4 md:gap-0 flex-wrap'>
                   <li className='list-none md:list-item  md:list-disc'>REACT</li>
@@ -91,7 +94,7 @@ function App() {
               </li>
 
 
-              <li className='flex flex-col justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 bg-opacity-80 border-white border-opacity-10 p-2 rounded-xl md:border-none'>
+              <li className='flex flex-wrap flex-col justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 md:bg-opacity-80  border-white border-opacity-10 p-2 rounded-xl md:border-none'>
                 <CiDatabase size={25} />
                 <ul className='md:ps-10 flex flex-row md:flex-col gap-4 md:gap-0'>
                   <li className='list-none md:list-item  md:list-disc'>MYSQL</li>
@@ -102,7 +105,7 @@ function App() {
 
 
 
-              <li className='flex flex-col  justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 bg-opacity-80 border-white border-opacity-10 p-2 rounded-xl md:border-none'>
+              <li className='flex flex-col  justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 md:bg-opacity-80  border-white border-opacity-10 p-2 rounded-xl md:border-none'>
                 <VscDeveloperTools size={25} />
                 <ul className='md:ps-10 flex flex-row md:flex-col gap-4 md:gap-0'>
                   <li className='list-none md:list-item  md:list-disc'>DOCKER</li>
