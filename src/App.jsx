@@ -67,13 +67,13 @@ function App() {
           <div id='box' className="bg-zinc-950 shadow-2xl md:backdrop-blur-sm border-white border border-opacity-40 rounded-2xl p-3 md:p-0 px-4 
           flex flex-col justify-start items-start
           
-          w-3/4 md:w-80 h-auto">
+          w-full md:w-80 h-auto">
             <ul className='w-full flex flex-col  gap-3 md:gap-0 scale-90'>
 
 
 
 
-              <li className='flex flex-col  justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 md:bg-opacity-80  border-white border-opacity-10 p-2 rounded-xl md:border-none'>
+              <li className='flex flex-col  justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 md:bg-opacity-80  border-white border-opacity-10  hover:border-opacity-100 transition-all p-2 rounded-xl md:border-none'>
                 <SiAiohttp size={25} />
                 <ul className='md:ps-10 flex flex-row flex-wrap md:flex-col  gap-4 md:gap-0'>
                   <li className='list-none md:list-item  md:list-disc'>NODEJS</li>
@@ -82,7 +82,7 @@ function App() {
                   <li className='list-none md:list-item  md:list-disc'>EXPO</li>
                 </ul>
               </li>
-              <li className='flex flex-col  justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 md:bg-opacity-80  border-white border-opacity-10 p-2 rounded-xl md:border-none'>
+              <li className='flex flex-col  justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 md:bg-opacity-80  border-white border-opacity-10  hover:border-opacity-100 transition-all p-2 rounded-xl md:border-none'>
                 <MdDesignServices size={25} />
                 <ul className='md:ps-10 flex flex-row md:flex-col gap-4 md:gap-0 flex-wrap'>
                   <li className='list-none md:list-item  md:list-disc'>REACT</li>
@@ -94,7 +94,7 @@ function App() {
               </li>
 
 
-              <li className='flex flex-wrap flex-col justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 md:bg-opacity-80  border-white border-opacity-10 p-2 rounded-xl md:border-none'>
+              <li className='flex flex-wrap flex-col justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 md:bg-opacity-80 hover:border-opacity-100 transition-all  border-white border-opacity-10 p-2 rounded-xl md:border-none'>
                 <CiDatabase size={25} />
                 <ul className='md:ps-10 flex flex-row md:flex-col gap-4 md:gap-0'>
                   <li className='list-none md:list-item  md:list-disc'>MYSQL</li>
@@ -105,7 +105,7 @@ function App() {
 
 
 
-              <li className='flex flex-col  justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 md:bg-opacity-80  border-white border-opacity-10 p-2 rounded-xl md:border-none'>
+              <li className='flex flex-col  justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 md:bg-opacity-80  border-white  hover:border-opacity-100 transition-all border-opacity-10 p-2 rounded-xl md:border-none'>
                 <VscDeveloperTools size={25} />
                 <ul className='md:ps-10 flex flex-row md:flex-col gap-4 md:gap-0'>
                   <li className='list-none md:list-item  md:list-disc'>DOCKER</li>
@@ -145,9 +145,13 @@ function App() {
           {
             //section
           }
-          <section id='box' className="bg-zinc-950 shadow-2xl border-white border border-opacity-40 rounded-2xl p-3 px-4 flex flex-col justify-start items-start w-full h-5/6 "></section>
+          <section className="bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10 shadow-2xl border-white border  rounded-2xl p-3 px-4 flex flex-col justify-start items-start w-full h-5/6 "></section>
 
-          <footer id='box' className='w-full mb-5 md:mb-0 h-auto md:h-20 p-3 mt-1 bg-zinc-950 border-white border border-opacity-35 rounded-xl shadow-2xl drop-shadow-2xl
+          {
+            //footer
+          }
+          <footer className='w-full mb-5 md:mb-0 h-auto md:h-20 p-3 mt-1 bg-zinc-950 md:bg-opacity-35 border-white border border-opacity-10 rounded-xl 
+          shadow-2xl drop-shadow-2xl backdrop-blur-sm
           flex flex-col md:flex-row justify-between items-center gap-2 md:gap-0
 
           '>
