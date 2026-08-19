@@ -141,7 +141,7 @@ function App() {
         {
           //col2
         }
-        <div className="flex flex-col justify-start items-center w-3/4 h-full pt-5 gap-5">
+        <div className="flex flex-col justify-start items-center w-full md:w-3/4 h-full pt-5 gap-5">
           {
             //section
           }
@@ -155,9 +155,9 @@ function App() {
           flex flex-col md:flex-row justify-between items-center gap-2 md:gap-0
 
           '>
-            <div className="flex flex-row justify-center items-center gap-2">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-2 mb-5 md:mb-0">
               <h1 className='text-xl font-sans'>PARHAM SANJANAKI</h1>
-              <h3 className='text-md self-end font-sans'>( FrontEnd and BackEnd coder ! )</h3>
+              <h3 className='text-md self-end font-sans'> FrontEnd and BackEnd coder ! </h3>
             </div>
 
             <div className="flex flex-row justify-center items-center gap-2">
