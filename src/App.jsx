@@ -155,7 +155,7 @@ function App() {
               //pending projects
 
             }
-            <div className="h-full w-full border-r border-r-red-50 border-opacity-5  flex flex-row justify-start items-start px-1">
+            <div className="h-full w-full md:border-r border-r-red-50 border-opacity-10  flex flex-row justify-start items-start px-1">
               {
                 //animatoin
               }
@@ -173,22 +173,31 @@ function App() {
             {
               //complete projects
             }
-            <div className="h-full w-full border-r border-r-red-50 border-opacity-5  flex flex-row justify-start items-start px-1">
+            <div className="h-full w-full md:border-r border-r-red-50 border-opacity-10  flex flex-row justify-start items-start px-1">
 
               {
                 //title
               }
-              <div className="flex flex-row justify-start items-center h-10 px-4 gap-2">
+              <div className="flex flex-row justify-start items-center h-10 md:px-4 gap-1 backdrop-blur-sm sticky top-0 mt-0">
                 <IoMdCheckmarkCircleOutline className='text-green-500' size={23} />
-                <h1 className='text-2xl scale-95'>COMPLETE PROJECTS</h1>
+                <h1 className='text-2xl scale-95'>COMPLETED PROJECTS</h1>
               </div>
+
+
+              {
+                //completed list
+              }
+              <div className=""></div>
+            </div>
+
+            <div className="w-full flex flex-row flex-wrap items-start justify-start">
 
             </div>
           </section>
 
 
 
-          
+
           {
             //footer
           }

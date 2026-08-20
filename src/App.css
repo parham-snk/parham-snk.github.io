@@ -7,11 +7,11 @@ body{
 }
 
 ::-webkit-scrollbar{
-  background-color: transparent; 
-  width: 10px;
+  background: #09090b; 
+  width: 3px;
 }
 ::-webkit-scrollbar-thumb{
-  background-color: white;
+  background:rgb(229, 172, 28) ;
   border-radius: 16px;
 }
 #hero {
