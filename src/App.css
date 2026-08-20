@@ -5,6 +5,15 @@
 body{
   overflow-x: hidden;
 }
+
+::-webkit-scrollbar{
+  background-color: transparent; 
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: white;
+  border-radius: 16px;
+}
 #hero {
 
   canvas {

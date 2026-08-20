@@ -18,7 +18,7 @@ import { IoLocationSharp, IoLogoDocker, IoLogoInstagram, IoLogoNodejs, IoLogoRea
 
 import { BiLogoMongodb, BiLogoPostgresql } from "react-icons/bi";
 import { MdDesignServices } from "react-icons/md";
-import { IoIosPhonePortrait } from "react-icons/io";
+import { IoIosPhonePortrait, IoMdCheckmarkCircleOutline } from "react-icons/io";
 import { SiAiohttp } from "react-icons/si";
 import { CiDatabase } from "react-icons/ci";
 import { VscDeveloperTools } from "react-icons/vsc";
@@ -57,7 +57,7 @@ function App() {
               <h1 className="">Hi! 👋</h1>
               <h2>I am </h2>
               <h2>parham  sanjanaki</h2>
-              <h3 className='text-nowrap text-sm'>FronEnd & BackEnd Coder</h3>
+              <h3 className='text-nowrap text-sm'> BackEnd & FronEnd  Coder</h3>
             </div>
           </div>
 
@@ -145,8 +145,50 @@ function App() {
           {
             //section
           }
-          <section className="bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10 shadow-2xl border-white border  rounded-2xl p-3 px-4 flex flex-col justify-start items-start w-full h-5/6 "></section>
+          <section className="bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10 shadow-2xl border-white border  rounded-2xl 
+          p-3 px-4 
+          flex flex-col md:flex-row justify-start items-start w-full h-5/6 
+          relative
+          "
+          >
+            {
+              //pending projects
 
+            }
+            <div className="h-full w-full border-r border-r-red-50 border-opacity-5  flex flex-row justify-start items-start px-1">
+              {
+                //animatoin
+              }
+              <div className="flex flex-row justify-start items-center h-10 gap-2">
+                <div className="relative scale-75">
+                  <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
+                  <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
+                </div>
+                {
+                  // title
+                }
+                <h1 className='text-2xl scale-95'>PENDING PROJECTS</h1>
+              </div>
+            </div>
+            {
+              //complete projects
+            }
+            <div className="h-full w-full border-r border-r-red-50 border-opacity-5  flex flex-row justify-start items-start px-1">
+
+              {
+                //title
+              }
+              <div className="flex flex-row justify-start items-center h-10 px-4 gap-2">
+                <IoMdCheckmarkCircleOutline className='text-green-500' size={23} />
+                <h1 className='text-2xl scale-95'>COMPLETE PROJECTS</h1>
+              </div>
+
+            </div>
+          </section>
+
+
+
+          
           {
             //footer
           }
