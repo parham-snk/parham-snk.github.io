@@ -189,7 +189,7 @@ function App() {
                     <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
                     <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
                   </div>
-                  <img src="/public/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
+                  <img src="/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
                   <div className="flex flex-col justify-start items-start p-1 py-2 font-sans">
                     <h1 className='font-sans'>course app</h1>
                     <p className='font-sans'>course mobile app !</p>
@@ -210,7 +210,7 @@ function App() {
                          overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
                           bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
                 ">
-                  <img src="/public/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
+                  <img src="/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
                   <div className=" scale-75 absolute right-5 top-5">
                     <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
                     <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
@@ -237,7 +237,7 @@ function App() {
                          overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
                           bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
                 ">
-                  <img src="/public/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
+                  <img src="/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
                   <div className=" scale-75 absolute right-5 top-5">
                     <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
                     <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
@@ -264,7 +264,7 @@ function App() {
                          overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
                           bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
                 ">
-                  <img src="/public/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
+                  <img src="/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
                   <div className=" scale-75 absolute right-5 top-5">
                     <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
                     <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
@@ -290,7 +290,7 @@ function App() {
                          overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
                           bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
                 ">
-                  <img src="/public/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
+                  <img src="/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
                   <div className=" scale-75 absolute right-5 top-5">
                     <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
                     <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
@@ -344,7 +344,7 @@ function App() {
                   <div className=" scale-75 absolute right-5 top-5">
                     <div className=" rounded-full bg-green-600  w-5 h-5 z-2"></div>
                   </div>
-                  <img src="/public/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
+                  <img src="/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
                   <div className="flex flex-col justify-start items-start p-1 py-2 font-sans">
                     <h1 className='font-sans'>course app</h1>
                     <p className='font-sans'>course mobile app !</p>
@@ -368,7 +368,7 @@ function App() {
                   <div className=" scale-75 absolute right-5 top-5">
                     <div className=" rounded-full bg-green-600  w-5 h-5 z-2"></div>
                   </div>
-                  <img src="/public/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
+                  <img src="/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
                   <div className="flex flex-col justify-start items-start p-1 py-2 font-sans">
                     <h1 className='font-sans'>course app</h1>
                     <p className='font-sans'>course mobile app !</p>
@@ -393,7 +393,7 @@ function App() {
 
                     <div className=" rounded-full bg-green-600  w-5 h-5 z-2"></div>
                   </div>
-                  <img src="/public/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
+                  <img src="/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
                   <div className="flex flex-col justify-start items-start p-1 py-2 font-sans">
                     <h1 className='font-sans'>course app</h1>
                     <p className='font-sans'>course mobile app !</p>
