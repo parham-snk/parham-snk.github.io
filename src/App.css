@@ -11,7 +11,7 @@ body{
   width: 3px;
 }
 ::-webkit-scrollbar-thumb{
-  background:rgb(229, 172, 28) ;
+  background:grey ;
   border-radius: 16px;
 }
 #hero {
