@@ -38,7 +38,7 @@ function App() {
 
 
 
-      <div className="  pt-10 md:pt-0 w-screen  md:h-screen  z-10 
+      <div className="   md:pt-0 w-screen  md:h-screen  z-10 
       flex flex-col md:flex-row  justify-center items-center scale-90 md:gap-5
 
       ">
@@ -141,7 +141,7 @@ function App() {
         {
           //col2
         }
-        <div className="flex flex-col justify-start items-center w-full md:w-3/4 h-full pt-5 gap-5">
+        <div className="flex flex-col justify-start items-center w-full md:w-3/4 h-full md:pt-5 gap-5">
           {
             //section
           }
@@ -175,59 +175,8 @@ function App() {
               {
                 //pending list
               }
-              <div className=" w-full h-auto md:overflow-y-scroll flex flex-wrap   py-5  
+              <div className=" w-full h-auto md:overflow-y-scroll flex flex-wrap   py-3  my-4
               ">
-                {
-                  //course app
-                }
-                <div
-                  className="
-                         overflow-hidden p-2  w-full 2xl:w-2/4 min-h-96 h-fit mb-4  relative scale-95
-                          bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
-                ">
-                  <div className=" scale-75 absolute right-5 top-5">
-                    <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
-                    <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
-                  </div>
-                  <img src="/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
-                  <div className="flex flex-col justify-start items-start p-1 py-2 font-sans">
-                    <h1 className='font-sans'>course app</h1>
-                    <p className='font-sans'>course mobile app !</p>
-                    <div className="flex flex-wrap flex-row justify-normal items-start pt-4 gap-2">
-                      <div className="font-sans bg-blue-400 bg-opacity-20 text-blue-300 p-1 px-2 rounded-md">react</div>
-                      <div className="font-sans bg-blue-500 bg-opacity-20 text-blue-400 p-1 px-2 rounded-md">react-native</div>
-                      <div className="font-sans bg-zinc-400 bg-opacity-20 text-zinc-400 p-1 px-2 rounded-md">expo</div>
-                      <div className="font-sans bg-purple-500 bg-opacity-20 text-purple-400 p-1 px-2 rounded-md">tailwind</div>
-                      <div className="font-sans bg-green-500 bg-opacity-20 text-green-400 p-1 px-2 rounded-md">supa-base</div>
-                    </div>
-                  </div>
-                </div>
-                {
-                  //course app
-                }
-                <div
-                  className="
-                         overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
-                          bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
-                ">
-                  <img src="/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
-                  <div className=" scale-75 absolute right-5 top-5">
-                    <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
-                    <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
-                  </div>
-                  <div className="flex flex-col justify-start items-start p-1 py-2 font-sans">
-
-                    <h1 className='font-sans text-2xl font-bold'>course app</h1>
-                    <p className='font-sans text-gray-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam commodi culpa in veritatis cupiditate dolorem. In eius veritatis, illum amet consequatur accusamus iste, facilis quia minima commodi voluptatibus saepe quibusdam! !</p>
-                    <div className="flex flex-wrap flex-row justify-normal items-start pt-4 gap-2">
-                      <div className="font-sans bg-blue-400 bg-opacity-20 text-blue-300 p-1 px-2 rounded-md">react</div>
-                      <div className="font-sans bg-blue-500 bg-opacity-20 text-blue-400 p-1 px-2 rounded-md">react-native</div>
-                      <div className="font-sans bg-zinc-400 bg-opacity-20 text-zinc-400 p-1 px-2 rounded-md">expo</div>
-                      <div className="font-sans bg-purple-500 bg-opacity-20 text-purple-400 p-1 px-2 rounded-md">tailwind</div>
-                      <div className="font-sans bg-green-500 bg-opacity-20 text-green-400 p-1 px-2 rounded-md">supa-base</div>
-                    </div>
-                  </div>
-                </div>
 
                 {
                   //course app
@@ -256,58 +205,11 @@ function App() {
                   </div>
                 </div>
 
-                {
-                  //course app
-                }
-                <div
-                  className="
-                         overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
-                          bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
-                ">
-                  <img src="/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
-                  <div className=" scale-75 absolute right-5 top-5">
-                    <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
-                    <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
-                  </div>
-                  <div className="flex flex-col justify-start items-start p-1 py-2 font-sans">
+                
 
-                    <h1 className='font-sans text-2xl font-bold'>course app</h1>
-                    <p className='font-sans text-gray-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam commodi culpa in veritatis cupiditate dolorem. In eius veritatis, illum amet consequatur accusamus iste, facilis quia minima commodi voluptatibus saepe quibusdam! !</p>
-                    <div className="flex flex-wrap flex-row justify-normal items-start pt-4 gap-2">
-                      <div className="font-sans bg-blue-400 bg-opacity-20 text-blue-300 p-1 px-2 rounded-md">react</div>
-                      <div className="font-sans bg-blue-500 bg-opacity-20 text-blue-400 p-1 px-2 rounded-md">react-native</div>
-                      <div className="font-sans bg-zinc-400 bg-opacity-20 text-zinc-400 p-1 px-2 rounded-md">expo</div>
-                      <div className="font-sans bg-purple-500 bg-opacity-20 text-purple-400 p-1 px-2 rounded-md">tailwind</div>
-                      <div className="font-sans bg-green-500 bg-opacity-20 text-green-400 p-1 px-2 rounded-md">supa-base</div>
-                    </div>
-                  </div>
-                </div>
-                {
-                  //course app
-                }
-                <div
-                  className="
-                         overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
-                          bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
-                ">
-                  <img src="/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
-                  <div className=" scale-75 absolute right-5 top-5">
-                    <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
-                    <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
-                  </div>
-                  <div className="flex flex-col justify-start items-start p-1 py-2 font-sans">
 
-                    <h1 className='font-sans text-2xl font-bold'>course app</h1>
-                    <p className='font-sans text-gray-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam commodi culpa in veritatis cupiditate dolorem. In eius veritatis, illum amet consequatur accusamus iste, facilis quia minima commodi voluptatibus saepe quibusdam! !</p>
-                    <div className="flex flex-wrap flex-row justify-normal items-start pt-4 gap-2">
-                      <div className="font-sans bg-blue-400 bg-opacity-20 text-blue-300 p-1 px-2 rounded-md">react</div>
-                      <div className="font-sans bg-blue-500 bg-opacity-20 text-blue-400 p-1 px-2 rounded-md">react-native</div>
-                      <div className="font-sans bg-zinc-400 bg-opacity-20 text-zinc-400 p-1 px-2 rounded-md">expo</div>
-                      <div className="font-sans bg-purple-500 bg-opacity-20 text-purple-400 p-1 px-2 rounded-md">tailwind</div>
-                      <div className="font-sans bg-green-500 bg-opacity-20 text-green-400 p-1 px-2 rounded-md">supa-base</div>
-                    </div>
-                  </div>
-                </div>
+
+
               </div>
             </div>
             {
@@ -331,83 +233,108 @@ function App() {
               {
                 //completed list
               }
-              <div className=" w-full h-auto md:overflow-y-scroll flex flex-wrap   py-5  
+              <div className=" w-full h-auto md:overflow-y-scroll flex flex-wrap   py-5  my-4
               ">
+
+
+
                 {
-                  //course app
+                  //Frequency Converter app
                 }
                 <div
                   className="
-                         overflow-hidden p-2  w-full 2xl:w-2/4 min-h-96 h-fit mb-4  relative scale-95
+                         overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
                           bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
                 ">
-                  <div className=" scale-75 absolute right-5 top-5">
-                    <div className=" rounded-full bg-green-600  w-5 h-5 z-2"></div>
-                  </div>
-                  <img src="/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
-                  <div className="flex flex-col justify-start items-start p-1 py-2 font-sans">
-                    <h1 className='font-sans'>course app</h1>
-                    <p className='font-sans'>course mobile app !</p>
-                    <div className="flex flex-wrap flex-row justify-normal items-start pt-4 gap-2">
-                      <div className="font-sans bg-blue-400 bg-opacity-20 text-blue-300 p-1 px-2 rounded-md">react</div>
-                      <div className="font-sans bg-blue-500 bg-opacity-20 text-blue-400 p-1 px-2 rounded-md">react-native</div>
-                      <div className="font-sans bg-zinc-400 bg-opacity-20 text-zinc-400 p-1 px-2 rounded-md">expo</div>
-                      <div className="font-sans bg-purple-500 bg-opacity-20 text-purple-400 p-1 px-2 rounded-md">tailwind</div>
-                      <div className="font-sans bg-green-500 bg-opacity-20 text-green-400 p-1 px-2 rounded-md">supa-base</div>
-                    </div>
-                  </div>
-                </div>
-                {
-                  //course app
-                }
-                <div
-                  className="
-                         overflow-hidden p-2  w-full 2xl:w-2/4 min-h-96 h-fit mb-4  relative scale-95
-                          bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
-                ">
-                  <div className=" scale-75 absolute right-5 top-5">
-                    <div className=" rounded-full bg-green-600  w-5 h-5 z-2"></div>
-                  </div>
-                  <img src="/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
-                  <div className="flex flex-col justify-start items-start p-1 py-2 font-sans">
-                    <h1 className='font-sans'>course app</h1>
-                    <p className='font-sans'>course mobile app !</p>
-                    <div className="flex flex-wrap flex-row justify-normal items-start pt-4 gap-2">
-                      <div className="font-sans bg-blue-400 bg-opacity-20 text-blue-300 p-1 px-2 rounded-md">react</div>
-                      <div className="font-sans bg-blue-500 bg-opacity-20 text-blue-400 p-1 px-2 rounded-md">react-native</div>
-                      <div className="font-sans bg-zinc-400 bg-opacity-20 text-zinc-400 p-1 px-2 rounded-md">expo</div>
-                      <div className="font-sans bg-purple-500 bg-opacity-20 text-purple-400 p-1 px-2 rounded-md">tailwind</div>
-                      <div className="font-sans bg-green-500 bg-opacity-20 text-green-400 p-1 px-2 rounded-md">supa-base</div>
-                    </div>
-                  </div>
-                </div>
-                {
-                  //course app
-                }
-                <div
-                  className="
-                         overflow-hidden p-2  w-full 2xl:w-2/4 min-h-96 h-fit mb-4  relative scale-95
-                          bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
-                ">
+                  <img src="/projects/frequncyConverter.png" alt="" className='rounded-md shadow w-full h-48' />
                   <div className=" scale-75 absolute right-5 top-5">
 
-                    <div className=" rounded-full bg-green-600  w-5 h-5 z-2"></div>
+                    <div className=" rounded-full  w-5 h-5 z-2 bg-green-600"></div>
                   </div>
-                  <img src="/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
                   <div className="flex flex-col justify-start items-start p-1 py-2 font-sans">
-                    <h1 className='font-sans'>course app</h1>
-                    <p className='font-sans'>course mobile app !</p>
+
+                    <h1 className='font-sans text-2xl font-bold'>Frequency Converter</h1>
+                    <p className='font-sans text-gray-300'>change the frequency of audio files to 432Hz!</p>
                     <div className="flex flex-wrap flex-row justify-normal items-start pt-4 gap-2">
-                      <div className="font-sans bg-blue-400 bg-opacity-20 text-blue-300 p-1 px-2 rounded-md">react</div>
-                      <div className="font-sans bg-blue-500 bg-opacity-20 text-blue-400 p-1 px-2 rounded-md">react-native</div>
-                      <div className="font-sans bg-zinc-400 bg-opacity-20 text-zinc-400 p-1 px-2 rounded-md">expo</div>
-                      <div className="font-sans bg-purple-500 bg-opacity-20 text-purple-400 p-1 px-2 rounded-md">tailwind</div>
-                      <div className="font-sans bg-green-500 bg-opacity-20 text-green-400 p-1 px-2 rounded-md">supa-base</div>
+                      <div className="font-sans bg-blue-400 bg-opacity-20 text-blue-300 p-1 px-2 rounded-md">Electron-JS</div>
+                      <div className="font-sans bg-green-500 bg-opacity-20 text-green-400 p-1 px-2 rounded-md">ffmpeg</div>
                     </div>
+                    <a target='_blank' href="https://github.com/parham-snk/FrequencyConverter" className='text-gray-400 hover:text-white flex flex-row gap-1 mt-4'>
+                      <RiGithubFill color='grey' size={25} />
+                      github repo
+                    </a>
                   </div>
                 </div>
+
+
+                {
+                  //dns-changer
+                }
+                <div
+                  className="
+                         overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
+                          bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
+                ">
+                  <img src="/projects/change-dns.png" alt="" className='rounded-md shadow w-full h-48' />
+                  <div className=" scale-75 absolute right-5 top-5">
+
+                    <div className=" rounded-full  w-5 h-5 z-2 bg-green-600"></div>
+                  </div>
+                  <div className="flex flex-col justify-start items-start p-1 py-2 font-sans">
+
+                    <h1 className='font-sans text-2xl font-bold'>DNS-changer</h1>
+                    <p className='font-sans text-gray-300'>change the DNS between DHCP & shekan !</p>
+                    <div className="flex flex-wrap flex-row justify-normal items-start pt-4 gap-2">
+                      <div className="font-sans bg-blue-400 bg-opacity-20 text-blue-300 p-1 px-2 rounded-md">Electron-JS</div>
+                      <div className="font-sans bg-blue-500 bg-opacity-20 text-blue-400 p-1 px-2 rounded-md">networking</div>
+                    </div>
+                    <a target='_blank' href="https://github.com/parham-snk/change-dns" className='text-gray-400 hover:text-white flex flex-row gap-1 mt-4'>
+                      <RiGithubFill color='grey' size={25} />
+                      github repo
+                    </a>
+                  </div>
+                </div>
+
+                {
+                  //shipping
+                }
+                <div
+                  className="
+                         overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
+                          bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
+                ">
+                  <img src="/projects/shipping.jpg" alt="" className='rounded-md shadow w-full h-48' />
+                  <div className=" scale-75 absolute right-5 top-5">
+
+                    <div className=" rounded-full  w-5 h-5 z-2 bg-green-600"></div>
+                  </div>
+                  <div className="flex flex-col justify-start items-start p-1 py-2 font-sans">
+
+                    <h1 className='font-sans text-2xl font-bold'>shipping</h1>
+                    <p className='font-sans text-gray-300'>I was prepared for this project, but the power went out while I was submitting my proposal.😒</p>
+                    <div className="flex flex-wrap flex-row justify-normal items-start pt-4 gap-2">
+                      <div className="font-sans bg-blue-400 bg-opacity-20 text-blue-300 p-1 px-2 rounded-md">telegram-bot</div>
+                      <div className="font-sans bg-yellow-500 bg-opacity-20 text-yellow-400 p-1 px-2 rounded-md">nodejs</div>
+                      <div className="font-sans bg-green-500 bg-opacity-20 text-green-400 p-1 px-2 rounded-md">puppeteer</div>
+                    </div>
+                    <a target='_blank' href="https://github.com/parham-snk/keshtirany" className='text-gray-400 hover:text-white flex flex-row gap-1 mt-4'>
+                      <RiGithubFill color='grey' size={25} />
+                      github repo
+                    </a>
+                  </div>
+                </div>
+
               </div>
+
+
+
+
             </div>
+
+
+
+
+
 
 
           </section>
