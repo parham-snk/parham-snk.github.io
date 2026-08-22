@@ -52,7 +52,7 @@ function App() {
           <div id='box' className="bg-zinc-950 md:backdrop-blur-sm border-white border border-opacity-40 rounded-2xl shadow-2xl p-3 px-2 
           flex flex-row justify-around md:justify-center md:items-center
           w-3/4 md:w-80 h-1/5">
-            <img src={'/profile.jfif'} className='rounded-full w-16 h-16  shadow-black shadow-xl' />
+            <img alt='parham sanjanaki profile'  src={'/profile.jfif'} className='rounded-full w-16 h-16  shadow-black shadow-xl' />
             <div className="mx-5">
               <h1 className="">Hi! 👋</h1>
               <h2>I am </h2>
@@ -145,7 +145,7 @@ function App() {
           {
             //section
           }
-          <section className="
+          <main className="
 
           flex flex-col lg:flex-row  justify-start items-start w-full gap-5 h-auto md:h-5/6
           relative
@@ -186,7 +186,7 @@ function App() {
                          overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
                           bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
                 ">
-                  <img src="/projects/course-app-mockup.png" alt="" className='rounded-md shadow' />
+                  <img src="/projects/course-app-mockup.png" alt="course app mockup" className='rounded-md shadow' />
                   <div className=" scale-75 absolute right-5 top-5">
                     <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
                     <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
@@ -246,7 +246,7 @@ function App() {
                          overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
                           bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
                 ">
-                  <img src="/projects/frequncyConverter.png" alt="" className='rounded-md shadow w-full h-48' />
+                  <img src="/projects/frequncyConverter.png" alt="this is Frequency Converter app'sscreen-shot" className='aspect-square h-auto rounded-md shadow w-full h-48' />
                   <div className=" scale-75 absolute right-5 top-5">
 
                     <div className=" rounded-full  w-5 h-5 z-2 bg-green-600"></div>
@@ -275,7 +275,7 @@ function App() {
                          overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
                           bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
                 ">
-                  <img src="/projects/change-dns.png" alt="" className='rounded-md shadow w-full h-48' />
+                  <img src="/projects/change-dns.png" alt="dns-changer screen-shot" className='rounded-md shadow w-full min-h-48 h-auto' />
                   <div className=" scale-75 absolute right-5 top-5">
 
                     <div className=" rounded-full  w-5 h-5 z-2 bg-green-600"></div>
@@ -303,7 +303,7 @@ function App() {
                          overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
                           bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
                 ">
-                  <img src="/projects/shipping.jpg" alt="" className='rounded-md shadow w-full h-48' />
+                  <img src="/projects/shipping.jpg" alt="shipping telegram-bot screenshot" className='rounded-md shadow w-full min-h-48 h-auto' />
                   <div className=" scale-75 absolute right-5 top-5">
 
                     <div className=" rounded-full  w-5 h-5 z-2 bg-green-600"></div>
@@ -337,7 +337,7 @@ function App() {
 
 
 
-          </section>
+          </main>
 
 
 
@@ -352,13 +352,13 @@ function App() {
           '>
             <div className="flex flex-col md:flex-row justify-center items-center gap-2 mb-5 md:mb-0">
               <h1 className='text-xl font-sans'>PARHAM SANJANAKI</h1>
-              <h3 className='text-md self-end font-sans'> FrontEnd and BackEnd coder ! </h3>
+              <h2 className='text-md self-end font-sans'> FrontEnd and BackEnd coder ! </h2>
             </div>
 
             <div className="flex flex-row justify-center items-center gap-2">
-              <a href="mailto:psanjanaki@email.com" about='email address' target='_blank' className='bg-transparent text-white shadow-inner hover:bg-white hover:text-black transition-all rounded-full p-2'><SiGmail size={25} /></a>
-              <a href="https://instagram.com/parham_sanjanaki1" about='isntagram address' target='_blank' className='bg-transparent text-white shadow-inner hover:bg-white hover:text-black transition-all rounded-full p-2'><IoLogoInstagram size={25} /></a>
-              <a href="https://github.com/parham-snk" target='_blank' about='github address' className='bg-transparent text-white shadow-inner hover:bg-white hover:text-black transition-all rounded-full p-2'><RiGithubFill size={25} /></a>
+              <a aria-label='email'  href="mailto:psanjanaki@email.com" about='email address' target='_blank' className='bg-transparent text-white shadow-inner hover:bg-white hover:text-black transition-all rounded-full p-2'><SiGmail size={25} /></a>
+              <a aria-label='instagam'  href="https://instagram.com/parham_sanjanaki1" about='isntagram address' target='_blank' className='bg-transparent text-white shadow-inner hover:bg-white hover:text-black transition-all rounded-full p-2'><IoLogoInstagram  size={25} /></a>
+              <a aria-label='github'  href="https://github.com/parham-snk" target='_blank' about='github address' className='bg-transparent text-white shadow-inner hover:bg-white hover:text-black transition-all rounded-full p-2'><RiGithubFill size={25} /></a>
             </div>
 
 

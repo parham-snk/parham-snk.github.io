@@ -2,6 +2,9 @@
   font-family: 'Courier New', Courier, monospace;
   user-select: none;
 }
+image{
+  aspect-ratio: 3/4 !important;
+}
 body{
   overflow-x: hidden;
 }
