@@ -39,7 +39,7 @@ function App() {
 
 
       <div className="   md:pt-0 w-screen  md:h-screen  z-10 
-      flex flex-col md:flex-row  justify-center items-center scale-90 md:gap-5
+      flex flex-col md:flex-row  justify-center items-center scale-100 p-2 md:p-0 md:scale-90 md:gap-5
 
       ">
         {
