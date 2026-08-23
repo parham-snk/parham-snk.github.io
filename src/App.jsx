@@ -52,7 +52,7 @@ function App() {
           <div id='box' className="bg-zinc-950 md:backdrop-blur-sm border-white border border-opacity-40 rounded-2xl shadow-2xl p-3 px-2 
           flex flex-row justify-around md:justify-center md:items-center
           w-3/4 md:w-80 h-1/5">
-            <img alt='parham sanjanaki profile'  src={'/profile.jfif'} className='rounded-full w-16 h-16  shadow-black shadow-xl' />
+            <img alt='parham sanjanaki profile' src={'/profile.jfif'} className='rounded-full w-16 h-16  shadow-black shadow-xl' />
             <div className="mx-5">
               <h1 className="">Hi! 👋</h1>
               <h2>I am </h2>
@@ -205,8 +205,30 @@ function App() {
                   </div>
                 </div>
 
-                
 
+                {
+                  //van-staion 
+                }
+                <div
+                  className="
+                         overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-fit  mb-4 relative scale-95
+                          bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
+                ">
+                  <img src="/projects/van-station.png" alt="van station mockup" className='rounded-md shadow' />
+                  <div className=" scale-75 absolute right-5 top-5">
+                    <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
+                    <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
+                  </div>
+                  <div className="flex flex-col justify-start items-start p-1 py-2 font-sans">
+
+                    <h1 className='font-sans text-2xl font-bold'>van station </h1>
+                    <p className='font-sans text-gray-300'>usefull & free mobile app for my people!</p>
+                    <div className="flex flex-wrap flex-row justify-normal items-start pt-4 gap-2">
+                      <div className="font-sans bg-blue-500 bg-opacity-20 text-blue-400 p-1 px-2 rounded-md">react-native</div>
+                      <div className="font-sans bg-zinc-400 bg-opacity-20 text-zinc-400 p-1 px-2 rounded-md">expo</div>
+                    </div>
+                  </div>
+                </div>
 
 
 
@@ -356,9 +378,9 @@ function App() {
             </div>
 
             <div className="flex flex-row justify-center items-center gap-2">
-              <a aria-label='email'  href="mailto:psanjanaki@email.com" about='email address' target='_blank' className='bg-transparent text-white shadow-inner hover:bg-white hover:text-black transition-all rounded-full p-2'><SiGmail size={25} /></a>
-              <a aria-label='instagam'  href="https://instagram.com/parham_sanjanaki1" about='isntagram address' target='_blank' className='bg-transparent text-white shadow-inner hover:bg-white hover:text-black transition-all rounded-full p-2'><IoLogoInstagram  size={25} /></a>
-              <a aria-label='github'  href="https://github.com/parham-snk" target='_blank' about='github address' className='bg-transparent text-white shadow-inner hover:bg-white hover:text-black transition-all rounded-full p-2'><RiGithubFill size={25} /></a>
+              <a aria-label='email' href="mailto:psanjanaki@email.com" about='email address' target='_blank' className='bg-transparent text-white shadow-inner hover:bg-white hover:text-black transition-all rounded-full p-2'><SiGmail size={25} /></a>
+              <a aria-label='instagam' href="https://instagram.com/parham_sanjanaki1" about='isntagram address' target='_blank' className='bg-transparent text-white shadow-inner hover:bg-white hover:text-black transition-all rounded-full p-2'><IoLogoInstagram size={25} /></a>
+              <a aria-label='github' href="https://github.com/parham-snk" target='_blank' about='github address' className='bg-transparent text-white shadow-inner hover:bg-white hover:text-black transition-all rounded-full p-2'><RiGithubFill size={25} /></a>
             </div>
 
 
