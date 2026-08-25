@@ -186,7 +186,7 @@ function App() {
                          overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
                           bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
                 ">
-                  <img src="/projects/course-app-mockup.png" alt="course app mockup" className='rounded-md shadow' />
+                  <img width={600} height={600} src="/projects/course-app-mockup.png" alt="course app mockup" className='rounded-md shadow' />
                   <div className=" scale-75 absolute right-5 top-5">
                     <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
                     <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
@@ -194,7 +194,7 @@ function App() {
                   <div className="flex flex-col justify-start items-start p-1 py-2 font-sans">
 
                     <h1 className='font-sans text-2xl font-bold'>course app</h1>
-                    <p className='font-sans text-gray-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam commodi culpa in veritatis cupiditate dolorem. In eius veritatis, illum amet consequatur accusamus iste, facilis quia minima commodi voluptatibus saepe quibusdam! !</p>
+                    <p className='font-sans text-gray-300'>an app for providing courses!</p>
                     <div className="flex flex-wrap flex-row justify-normal items-start pt-4 gap-2">
                       <div className="font-sans bg-blue-400 bg-opacity-20 text-blue-300 p-1 px-2 rounded-md">react</div>
                       <div className="font-sans bg-blue-500 bg-opacity-20 text-blue-400 p-1 px-2 rounded-md">react-native</div>
@@ -214,7 +214,7 @@ function App() {
                          overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-fit  mb-4 relative scale-95
                           bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
                 ">
-                  <img src="/projects/van-station.png" alt="van station mockup" className='rounded-md shadow' />
+                  <img width={600} height={600} src="/projects/van-station.png" alt="van station mockup" className='rounded-md shadow' />
                   <div className=" scale-75 absolute right-5 top-5">
                     <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
                     <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
@@ -268,7 +268,7 @@ function App() {
                          overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
                           bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
                 ">
-                  <img src="/projects/frequncyConverter.png" alt="this is Frequency Converter app'sscreen-shot" className='aspect-square h-auto rounded-md shadow w-full h-48' />
+                  <img width={600} height={600} src="/projects/frequncyConverter.png" alt="this is Frequency Converter app'sscreen-shot" className='aspect-square h-auto rounded-md shadow w-full h-48' />
                   <div className=" scale-75 absolute right-5 top-5">
 
                     <div className=" rounded-full  w-5 h-5 z-2 bg-green-600"></div>
@@ -297,7 +297,7 @@ function App() {
                          overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
                           bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
                 ">
-                  <img src="/projects/change-dns.png" alt="dns-changer screen-shot" className='rounded-md shadow w-full min-h-48 h-auto' />
+                  <img width={600} height={600} src="/projects/change-dns.png" alt="dns-changer screen-shot" className='rounded-md shadow w-full min-h-48 h-auto' />
                   <div className=" scale-75 absolute right-5 top-5">
 
                     <div className=" rounded-full  w-5 h-5 z-2 bg-green-600"></div>
@@ -325,7 +325,7 @@ function App() {
                          overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
                           bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
                 ">
-                  <img src="/projects/shipping.jpg" alt="shipping telegram-bot screenshot" className='rounded-md shadow w-full min-h-48 h-auto' />
+                  <img width={600} height={600} src="/projects/shipping.jpg" alt="shipping telegram-bot screenshot" className='rounded-md shadow w-full min-h-48 h-auto' />
                   <div className=" scale-75 absolute right-5 top-5">
 
                     <div className=" rounded-full  w-5 h-5 z-2 bg-green-600"></div>
