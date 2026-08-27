@@ -145,7 +145,7 @@ function App() {
           {
             //section
           }
-          <main className="flex flex-col lg:flex-row  justify-start items-start w-full gap-5 h-auto md:h-5/6 relative
+          <main className="flex flex-col lg:flex-row  justify-start items-start w-full gap-5 h-auto lg:h-5/6 relative
           "
           >
             {
