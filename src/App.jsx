@@ -38,8 +38,8 @@ function App() {
 
 
 
-      <div className="   md:pt-0 w-screen  md:h-screen  z-10 
-      flex flex-col md:flex-row  justify-center items-center scale-100 p-2 md:p-0 md:scale-90 md:gap-5
+      <div className="   md:pt-0 w-screen  lg:h-screen  z-10 
+      flex flex-col lg:flex-row  justify-center items-center scale-100 p-2 lg:p-0 lg:scale-90 md:gap-5
 
       ">
         {
@@ -145,10 +145,7 @@ function App() {
           {
             //section
           }
-          <main className="
-
-          flex flex-col lg:flex-row  justify-start items-start w-full gap-5 h-auto md:h-5/6
-          relative
+          <main className="flex flex-col lg:flex-row  justify-start items-start w-full gap-5 h-auto md:h-5/6 relative
           "
           >
             {
@@ -175,7 +172,7 @@ function App() {
               {
                 //pending list
               }
-              <div className=" w-full h-auto md:overflow-y-scroll flex flex-wrap   py-3  my-4
+              <div className=" w-full h-auto lg:h-fit lg:overflow-y-scroll flex flex-wrap   py-3  my-4
               ">
 
                 {
@@ -186,7 +183,7 @@ function App() {
                          overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-auto  mb-4 relative scale-95
                           bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
                 ">
-                  <img width={600} height={600} src="/projects/course-app-mockup.png" alt="course app mockup" className='rounded-md shadow' />
+                  <img width={"auto"} height={"auto"} src="/projects/course-app-mockup.png" alt="course app mockup" className='rounded-md shadow w-full' />
                   <div className=" scale-75 absolute right-5 top-5">
                     <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
                     <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
@@ -214,7 +211,7 @@ function App() {
                          overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-fit  mb-4 relative scale-95
                           bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
                 ">
-                  <img width={600} height={600} src="/projects/van-station.png" alt="van station mockup" className='rounded-md shadow' />
+                  <img width={"auto"} height={"auto"} src="/projects/van-station.png" alt="van station mockup" className='rounded-md shadow w-full' />
                   <div className=" scale-75 absolute right-5 top-5">
                     <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
                     <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
@@ -255,7 +252,7 @@ function App() {
               {
                 //completed list
               }
-              <div className=" w-full h-auto md:overflow-y-scroll flex flex-wrap   py-5  my-4
+              <div className=" w-full h-auto  lg:overflow-y-scroll flex flex-wrap   py-5  my-4
               ">
 
 
@@ -352,18 +349,7 @@ function App() {
 
 
             </div>
-
-
-
-
-
-
-
           </main>
-
-
-
-
           {
             //footer
           }
