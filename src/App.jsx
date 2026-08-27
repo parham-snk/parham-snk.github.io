@@ -45,13 +45,13 @@ function App() {
         {
           //col1
         }
-        <div className="flex flex-col justify-center items-center md:justify-between gap-5 md:gap-1 h-full py-5 w-full md:w-auto mt-12 md:mt-0">
+        <div className="flex flex-col justify-center items-center md:justify-between gap-5 md:gap-1 h-full py-5 w-3/4 lg:w-auto mt-12 md:mt-0">
           {
             // profile
           }
-          <div id='box' className="bg-zinc-950 md:backdrop-blur-sm border-white border border-opacity-40 rounded-2xl shadow-2xl p-3 px-2 
+          <div id='box' className="bg-zinc-950 md:backdrop-blur-sm border-white border border-opacity-40 rounded-2xl shadow-2xl py-5 px-5  md:py-14 md:px-2 lg:py-2
           flex flex-row justify-around md:justify-center md:items-center
-          w-3/4 md:w-80 h-1/5">
+          w-full sm:w-fit lg:w-80 h-1/5">
             <img alt='parham sanjanaki profile' src={'/profile.jfif'} className='rounded-full w-16 h-16  shadow-black shadow-xl' />
             <div className="mx-5">
               <h1 className="">Hi! 👋</h1>
@@ -65,10 +65,10 @@ function App() {
             // list 
           }
           <div id='box' className="bg-zinc-950 shadow-2xl md:backdrop-blur-sm border-white border border-opacity-40 rounded-2xl p-3 md:p-0 px-4 
-          flex flex-col justify-start items-start
+          flex flex-col justify-start items-start 
           
-          w-full md:w-80 h-auto">
-            <ul className='w-full flex flex-col  gap-3 md:gap-0 scale-90'>
+          w-full lg:w-80 h-auto">
+            <ul className='w-full flex flex-col md:flex-row lg:flex-col  gap-3 md:gap-0 scale-90'>
 
 
 
@@ -120,7 +120,7 @@ function App() {
             //skills
           }
           <div id='marquee' className="bg-zinc-950 border-white border-opacity-40 shadow-2xl border-spacing-6 border rounded-2xl p-2 
-           flex flex-row justify-center items-center w-3/4 md:w-80 h-32">
+           flex flex-row justify-center items-center  lg:w-80 w-full lg:h-32">
 
             <marquee direction="left" className="scale-90 md:scale-100" >
               <IoLogoNodejs className='inline mx-12' color='white' size={30} />
