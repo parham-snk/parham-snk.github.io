@@ -52,19 +52,19 @@ function App() {
           <div id='box' className="bg-zinc-950 md:backdrop-blur-sm border-white border border-opacity-40 rounded-2xl shadow-2xl py-5 px-5  md:py-14 md:px-2 lg:py-2
           flex flex-row justify-around md:justify-center md:items-center
           w-full sm:w-fit lg:w-80 h-1/5">
-            <img alt='parham sanjanaki profile' src={'/profile.jfif'} className='rounded-full w-16 h-16  shadow-black shadow-xl' />
+            <img alt='parham sanjanaki profile' src={'/profile.jfif'} className='rounded md:rounded-full md:w-16 md:h-16  shadow-black shadow-xl' />
             <div className="mx-5">
               <h1 className="">Hi! 👋</h1>
               <h2>I am </h2>
               <h2>parham  sanjanaki</h2>
-              <h3 className='text-nowrap text-sm'> BackEnd & FronEnd  Coder</h3>
+              <h3 className='sm:text-nowrap text-sm'> BackEnd & FronEnd  Coder</h3>
             </div>
           </div>
 
           {
             // list 
           }
-          <div id='box' className="bg-zinc-950 shadow-2xl md:backdrop-blur-sm border-white border border-opacity-40 rounded-2xl p-3 md:p-0 px-4 
+          <div id='box' className="bg-zinc-950 shadow-2xl md:backdrop-blur-sm border-white border border-opacity-40 rounded-2xl p-2 md:p-0 px-4 
           flex flex-col justify-start items-start 
           
           w-full lg:w-80 h-auto">
@@ -79,7 +79,6 @@ function App() {
                   <li className='list-none md:list-item  md:list-disc'>NODEJS</li>
                   <li className='list-none md:list-item  md:list-disc'>EXPRESS</li>
                   <li className='list-none md:list-item  md:list-disc'>SUPABASE</li>
-                  <li className='list-none md:list-item  md:list-disc'>EXPO</li>
                 </ul>
               </li>
               <li className='flex flex-col  justify-center items-center md:justify-start md:items-start gap-4 md:gap-0 w-full border bg-zinc-950 md:bg-opacity-80  border-white border-opacity-10  hover:border-opacity-100 transition-all p-2 rounded-xl md:border-none'>
@@ -120,7 +119,7 @@ function App() {
             //skills
           }
           <div id='marquee' className="bg-zinc-950 border-white border-opacity-40 shadow-2xl border-spacing-6 border rounded-2xl p-2 
-           flex flex-row justify-center items-center  lg:w-80 w-full lg:h-32">
+           flex flex-row justify-center items-center  lg:w-80 w-full h-auto">
 
             <marquee direction="left" className="scale-90 md:scale-100" >
               <IoLogoNodejs className='inline mx-12' color='white' size={30} />
