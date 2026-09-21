@@ -227,7 +227,32 @@ function App() {
                 </div>
 
 
+                {
+                  //sanPlayer 
+                }
+                <div
+                  className="
+                         overflow-hidden p-2  w-full 2xl:w-1/2 min-h-96 h-fit  mb-4 relative scale-95
+                          bg-zinc-950 md:bg-opacity-35 md:backdrop-blur-sm border-opacity-10  border-white border  rounded-2xl
+                ">
+                  <img width={"auto"} height={"auto"} src="/projects/sanPlayer.png" alt="cover for sanPlayer project" className='rounded-md shadow w-full' />
+                  <div className=" scale-75 absolute right-5 top-5">
+                    <div style={{ background: "#EAB308" }} className=" rounded-full animate-ping w-5 h-5 z-1 absolute"></div>
+                    <div style={{ background: "#FACC15" }} className=" rounded-full  w-5 h-5 z-2"></div>
+                  </div>
+                  <div className="flex flex-col justify-start items-start p-1 py-2 font-sans">
 
+                    <h1 className='font-sans text-2xl font-bold'>sanPlayer </h1>
+                    <p className='font-sans text-gray-300'>Sanplayer is a modern music platform designed for a smooth and immersive listening experience.</p>
+                    <div className="flex flex-wrap flex-row justify-normal items-start pt-4 gap-2">
+                      <div className="font-sans bg-yellow-500 bg-opacity-20 text-yellow-400 p-1 px-2 rounded-md">nodejs</div>
+                      <div className="font-sans bg-blue-500 bg-opacity-20 text-blue-400 p-1 px-2 rounded-md">react</div>
+                      <div className="font-sans bg-purple-400 bg-opacity-20 text-purple-400 p-1 px-2 rounded-md">mysql</div>
+                      <div className="font-sans bg-red-400 bg-opacity-20 text-red-400 p-1 px-2 rounded-md">hls</div>
+                      <div className="font-sans bg-red-600 bg-opacity-20 text-red-600 p-1 px-2 rounded-md">redis</div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             {
